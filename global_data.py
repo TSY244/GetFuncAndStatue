@@ -1,14 +1,5 @@
 
 
-# token=fds
-        # gitUrl=https://git.woa.com/v/video_ec/pay_center/vmall_order_valuation.git
-        # authenticationCodes=
-        # isUseAi=true
-        # projectType=多角色多权限的后台服务
-        # permissionModel=userGroups
-        # aiModel=deepseek-chat
-        # aiPrompt=
-
 default_req={
             "token": "your_token_here",  # 可选字段
             "GitURL": "",  # 必填字段

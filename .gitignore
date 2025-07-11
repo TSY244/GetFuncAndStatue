@@ -2,3 +2,7 @@ venv/
 result/
 .idea/
 .DS_Store
+*.log
+*.txt
+*.html
+!requirements.txt
