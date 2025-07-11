@@ -27,6 +27,7 @@ def main():
 
     # 创建线程池
     thread_pool=ThreadPoolExecutor(max_workers=5)
+
     for git_url in all_git_urls:
         # 提交扫描任务
         thread_pool.submit(scan,git_url)

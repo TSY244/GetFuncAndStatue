@@ -17,6 +17,7 @@ def once_run():
             with open(file_path, "w") as f:
                 all_git_urls = f.readlines()
 
+    all_git_urls=list(set(all_git_urls))
     flag=True
 
 once_run()
